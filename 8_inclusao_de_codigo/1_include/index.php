@@ -1,0 +1,11 @@
+<?php
+// COM O INCLUDE INSERIMOS UM ARQUIVO DE PHP, OU ATÉ MESMO UM HTML, EM OUTRO.
+// PODENDO ASSIM UTILIZAR TUDO QUE ESTÁ DECLARADO NO ARQUIVO INCLUÍDO.
+// O INCLUDE NÃO GERA ERRO FATAL SE O ARQUIVO NÃO EXISTIR, E SIM UM WARNING.
+
+    include "teste.php";
+
+?>
+
+<p>Após o include</p>
+<p>Imprimindo c <?php echo $c; ?></p>
